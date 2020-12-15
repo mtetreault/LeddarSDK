@@ -39,17 +39,5 @@
 
 // Various define if you don't need / want to build the entire SDK
 // Sensor type
-#define BUILD_ONE               /// LeddarOne sensors
-#define BUILD_VU                /// LeddarVu sensors
-#define BUILD_M16               /// M16 / IS16 / Evalkit
 #define BUILD_AUTO              /// LeddarAuto sensors
-#define BUILD_DTEC              /// DTec sensors
-// Physical Protocol
-#define BUILD_MODBUS            /// Modbus (includes Vu8 serial)
-#define BUILD_SPI               /// Generic SPI (for hardware independent SPI)
-#define BUILD_SPI_FTDI          /// SPI using FTDI hardware
-//#define BUILD_SPI_BCM2835       /// SPI using BCM2835 (raspberry pi)
-#define BUILD_CANBUS            /// Generic CANBus (for hardware independent CAN)
-#define BUILD_CANBUS_KOMODO     /// CANBus using Komodo hardware
-#define BUILD_USB               /// Usb
 #define BUILD_ETHERNET          /// Ethernet
